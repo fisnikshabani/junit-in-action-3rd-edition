@@ -30,6 +30,11 @@ public class Customer {
             return this;
         }
 
+        public Builder withBecomeCustomer(Date becomeCustomer) {
+            this.becomeCustomer = becomeCustomer;
+            return this;
+        }
+
         public Customer build() {
             return new Customer(this);
         }
