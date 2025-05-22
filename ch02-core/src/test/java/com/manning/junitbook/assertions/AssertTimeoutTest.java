@@ -25,5 +25,4 @@ class AssertTimeoutTest {
         systemUnderTest.addJob(new Job("Job 1"));
         assertTimeoutPreemptively(ofMillis(500), () -> systemUnderTest.run(200));
     }
-
 }
