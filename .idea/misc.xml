@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/ch01-jumpstart/pom.xml" />
         <option value="$PROJECT_DIR$/ch02-core/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-architecture/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04-migrating/pom.xml" />
       </list>
     </option>
   </component>
