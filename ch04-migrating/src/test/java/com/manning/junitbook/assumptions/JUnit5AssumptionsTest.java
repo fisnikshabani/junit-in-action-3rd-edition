@@ -1,16 +1,15 @@
 package com.manning.junitbook.assumptions;
 
+import com.manning.junitbook.assumptions.environment.JavaSpecification;
+import com.manning.junitbook.assumptions.environment.OperationSystem;
+import com.manning.junitbook.assumptions.environment.TestsEnvironment;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
-
-import com.manning.junitbook.assumptions.environment.JavaSpecification;
-import com.manning.junitbook.assumptions.environment.OperationSystem;
-import com.manning.junitbook.assumptions.environment.TestsEnvironment;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
 public class JUnit5AssumptionsTest {
 

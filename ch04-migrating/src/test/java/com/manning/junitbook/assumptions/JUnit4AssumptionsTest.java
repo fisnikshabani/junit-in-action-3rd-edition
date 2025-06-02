@@ -1,22 +1,21 @@
 package com.manning.junitbook.assumptions;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assume.assumeTrue;
-
 import com.manning.junitbook.assumptions.environment.JavaSpecification;
 import com.manning.junitbook.assumptions.environment.OperationSystem;
 import com.manning.junitbook.assumptions.environment.TestsEnvironment;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeTrue;
+
 public class JUnit4AssumptionsTest {
 
     private static String EXPECTED_JAVA_VERSION = "1.8";
-
     private TestsEnvironment environment = new TestsEnvironment(
-        new JavaSpecification(System.getProperty("java.vm.specification.version")),
-        new OperationSystem(System.getProperty("os.name"), System.getProperty("os.arch"))
+            new JavaSpecification(System.getProperty("java.vm.specification.version")),
+            new OperationSystem(System.getProperty("os.name"), System.getProperty("os.arch"))
     );
 
     private SUT systemUnderTest = new SUT();
