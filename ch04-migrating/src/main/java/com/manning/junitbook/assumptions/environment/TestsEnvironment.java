@@ -15,7 +15,7 @@ public class TestsEnvironment {
     }
 
     public boolean isAmd64Architecture() {
-        return operationSystem.getArchitecture().equals("amd64");
+        return operationSystem.getArchitecture().contains("amd64");
     }
 
     public String getJavaVersion() {
