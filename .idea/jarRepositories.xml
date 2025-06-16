@@ -7,9 +7,19 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="apache-maven-central" />
+      <option name="name" value="apache-maven" />
+      <option name="url" value="https://repo.maven.apache.org" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="snapshots" />
       <option name="name" value="repo" />
       <option name="url" value="https://repo.backbase.com/artifactory/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bintray-central" />
+      <option name="name" value="bintray" />
+      <option name="url" value="https://jcenter.bintray.com" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="Backbase Artifact Repository" />
@@ -25,6 +35,16 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-release-server" />
+      <option name="name" value="nexus-release-server" />
+      <option name="url" value="https://nexus3.hudsonmx.net/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-snapshot-server" />
+      <option name="name" value="nexus-snapshot-server" />
+      <option name="url" value="https://nexus3.hudsonmx.net/repository/maven-snapshots/" />
     </remote-repository>
   </component>
 </project>

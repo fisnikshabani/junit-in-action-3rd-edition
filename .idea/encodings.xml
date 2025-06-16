@@ -5,5 +5,15 @@
     <file url="file://$PROJECT_DIR$/ch01-jumpstart/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch02-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch02-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-architecture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-architecture/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04-migrating/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04-migrating/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-quality/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-quality/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-stubs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-stubs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08-mocks/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08-mocks/src/main/resources" charset="UTF-8" />
   </component>
 </project>

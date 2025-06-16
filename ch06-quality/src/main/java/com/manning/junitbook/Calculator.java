@@ -1,4 +1,4 @@
-package se.magnus.microservices;
+package com.manning.junitbook;
 
 public class Calculator {
 

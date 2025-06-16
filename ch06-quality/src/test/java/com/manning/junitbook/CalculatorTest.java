@@ -1,4 +1,4 @@
-package se.magnus.microservices;
+package com.manning.junitbook;
 
 import org.junit.jupiter.api.Test;
 

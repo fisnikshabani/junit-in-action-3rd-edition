@@ -8,10 +8,13 @@
         <option value="$PROJECT_DIR$/ch02-core/pom.xml" />
         <option value="$PROJECT_DIR$/ch03-architecture/pom.xml" />
         <option value="$PROJECT_DIR$/ch04-migrating/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06-quality/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-stubs/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08-mocks/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="liberica-full-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
